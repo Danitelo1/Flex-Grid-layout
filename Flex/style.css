@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(151, 151, 151);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height:700px;
+    margin: auto;
+    color: white;
+}
+div{
+    width: 400px;
+    height: 450px;
+    padding: 0px 20px;
+}
+.left-content{
+    background-color: rgb(155, 102, 22);
+    border-radius: 5px 0px 0px 5px;
+}
+.middle-content{
+    background-color: rgb(0, 122, 122);
+}
+.right-content{
+    background-color: rgb(0, 46, 46);
+    border-radius: 0px 5px 5px 0px;
+}
+img{
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+p{
+    margin: 20px;
+}
+button{
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+.left-content button{
+    color: rgb(155, 102, 22);
+}
+.middle-content button{
+    color: rgb(0, 122, 122);
+}
+.right-content button{
+    color: rgb(0, 46, 46);
+}
+.left-content button:active{
+    background-color: rgb(155, 102, 22);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.middle-content button:active{
+    background-color: rgb(0, 122, 122);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.right-content button:active{
+    background-color: rgb(0, 46, 46);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
